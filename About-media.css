@@ -1,0 +1,12 @@
+@media screen and (max-width: 540px) {
+	
+	.slider {
+		max-width:200px;
+		height 20px
+	}
+	.about{
+		height:253px;
+
+	}
+}
+		

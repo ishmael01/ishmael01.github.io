@@ -1,0 +1,317 @@
+html,body {
+	margin-top: -8px;
+	margin-left-8px;
+	margin-right: -8px;
+}
+ .about{
+ 	background:url(images/prog.jpeg) no-repeat;
+ 	display table;
+	margin: auto;
+	top: 5px;
+    background-position: center;
+	background-size:cover;
+	background-color red;
+	margin-bottom: 0;
+	height:380px;
+}
+.essay-image{
+	background: url(images/essay-img.jpg) no-repeat;
+}
+.slider{
+	max-width: 295px;
+	margin: auto;
+	margin-bottom: 0px;
+	height:30px;
+	margin-bottom0;
+}
+.slider1 img{
+	width: 100%;
+	max-width:300px;
+	max-width: auto;
+	margin-left: -40px;
+}
+.slider .bx-wrapper .bx-controls-direction a {
+	display: none;
+}
+.slider-wrap{
+	height 80px
+}
+nav{
+		margin-top:1px; 310px;
+		margin-bottom 0
+}
+
+article{
+	width: 80%;
+	margin-top:-20px;
+	padding-top -25px;
+	background-color:#f0f0f0; #f44289;
+	margin-left:  auto;
+	margin-right: auto;
+}
+{
+	color: black
+}
+p{
+   
+	margin-left: 2%;
+	margin-right: 2%;
+	color: black;
+	font-weight: normal;
+	line-height: 220%;
+	font-family: Times New Roman, arial;
+	font-size: 14px
+}
+{
+	float: right;
+}
+h2{
+	padding-top:6%;
+	text-align: center;
+	font-size: 150%
+}
+.h2-des{
+	font-size: 15px;
+	padding-top: 1%;
+	padding-bottom: 2%
+}
+#myDIV{
+	display: none;
+}
+button{
+	text-align: center;
+	margin: auto;
+}
+#Quote{ 
+	text-align: center;
+}
+input[type=text], select {
+    width: 60%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form{
+	text-align: center;
+}
+textarea {
+    width: 62%;
+    height: 190px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize none;
+}
+w3-input{
+		    padding: 20px 2px;
+}
+#button{
+	height: 50%;
+	width: 50%;
+	margin-left: 10%;
+	background-color:  #f44289
+
+}
+button[type=submit] {
+    width: 50%;
+    background-color:   #f44289;#4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+.contact{
+	color: skyblue
+}
+.indent{
+
+    text-indent: 50px;
+}
+.par{
+  margin-left: 7%;
+  font-style: normal;
+}
+.center {
+	position: absolute;
+	left: 40%
+}
+.read-more-target{
+	margin-top-25px;
+  padding-top: -45px
+}
+.icon-Back {
+	background-color: #f44289;
+	height: 45px;
+	display: none
+}
+.icon{
+	float: right;
+	margin-right: 4%;
+}
+.icon-list{
+	margin-top: 19%;
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 60px;
+     opacity:.98;
+
+   
+}
+.sidenav a {
+    padding:8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding-top: 10px
+    
+}
+.btn{
+		 background-color: #f44289;
+ }
+.btn:hover {
+		background-color: white;
+
+}
+.sidenav a:hover{
+    color #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media(max-width: 940px) {
+
+.essay-image{
+	background: url(images/essay-img2.jpg) no-repeat;
+}
+}
+@media(max-width: 915px) {
+
+.essay-image{
+	background: url(images/essay-img3.jpg) no-repeat;
+}
+@media(max-width: 900px) {
+	.btn{
+		padding: 3px 5px;
+	}
+}
+@media screen and (max-height: 893px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media (max-width: 940px) {
+	.contact li{
+  font-size: 190%;
+}
+article{
+		width: 95%
+	}
+
+@media(max-width: 893px) {
+nav  {
+	display:none;
+
+}
+.icon, .icon-Back {
+	display:block;
+}
+.btn{
+	display: block;
+	width: 100px
+}
+.sidenav a{
+	 margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.about{
+		height:373px;
+
+	}
+article{
+	margin-top-4%;
+}
+@media(max-width: 700px) {
+    .sec {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+	.footer-nav{
+			 
+		text-align: center;
+	}
+}
+@media(max-width: 603px) {
+	nav  {
+	display:none;
+
+}
+.icon, .icon-Back {
+	display:block;
+}
+}
+@media(max-width: 600px){
+	article{
+		width: 98%
+	}
+
+.essay-image{
+	background: url(images/essay-img1.jpg) no-repeat;
+}
+
+
+}
+
+@media(max-width: 530px) {
+	#credit{
+	text-align:center;
+	margin-left:2%;
+    margin-right: 3%;
+    
+	}
+}
+
+@media(max-width: 530px) {
+
+	input[type=text], select {
+    width: 85%;
+
+}
+textarea{
+	width: 90%
+}
+}
